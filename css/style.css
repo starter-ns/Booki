@@ -183,7 +183,7 @@ ul a:focus
 }
 .search-box{
     border:none;
-    width: 259px;
+    width: 195px;
     height: 49px;
 outline: 0;
 
@@ -205,16 +205,18 @@ outline: 0;
     color: black;
 }
 .search-btn{
-    border-radius: 15px;
-    width: 49px;
+    color: white;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-size: 18px;
+    border-radius: 0px 15px 15px 0px;
+    width: 93px;
     height: 49px;
     border: 1px solid #0065FC;
 background-color: #0065FC;
 }
 
-.fa-magnifying-glass{
-    font-size: 17px;
-    color: #FFFFFF;
-}
+
 
 
