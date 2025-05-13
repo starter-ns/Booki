@@ -64,11 +64,11 @@ body {
     border-radius: 20px;
     padding: 30px;
     box-sizing: border-box;
-    height: fit-content;
 }
 
+
 /****** Accommodation ***********/
-.accommodation {
+#accommodation {
     width: 65%;
 }
 .accommodation-title{
@@ -86,13 +86,16 @@ body {
     background-color: white;
     border-radius: 20px;
     padding-bottom: 15px;
-    width: 30%;
+    height: 207.25px;
 
 }
+.accommodation-cards .card .card-title{
+    margin: 0;
+    gap: 8px;
+}
 .accommodation-cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
     margin-top: 33px;
 }
@@ -141,7 +144,7 @@ body {
     margin-bottom: 5px;
 }
 /****** activities ***********/
-.activities-in-marseille{
+#activities-in-marseille{
     padding: 30px;
     gap: 30px;
 }
@@ -152,7 +155,7 @@ body {
     height: 650px;
     
 }
-.activities-in-marseille .card{
+#activities-in-marseille .card{
     padding: 0;
     width: 25%;
     height: 100%;
@@ -163,7 +166,7 @@ body {
     margin: 0;
     height: 59px;
 }
-.activities-in-marseille img{
+#activities-in-marseille img{
     border-radius: 20px 20px 0 0 ;
     width: 100%;
     background-size: cover;
@@ -357,4 +360,3 @@ footer a{
     text-decoration: none;
     color: black;
 }
-
