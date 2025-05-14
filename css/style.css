@@ -12,12 +12,15 @@
 .fa-solid, .fa-regular {
     color: var(--main-color);
 }
-
+html{
+    height: 100%;
+}
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
+    min-height: 100%;
 }
 
 header{
@@ -198,6 +201,7 @@ nav {
     z-index: 1;
 }
 
+
 .nav_links a{
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -228,7 +232,8 @@ z-index: 1;
 .nav_links a:hover::after,
 .nav_links a:focus::after
 {
-opacity: 1;
+opacity: 1; 
+color: #0065FC;
 }
 .nav_links a:hover,
 .nav_links a:focus
@@ -284,8 +289,12 @@ background-color: #0065FC;
 }
 
 /****** filters ***********/
-
-.filters{
+.filters-sec {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.filters {
         list-style-type: none;
         display: flex;
         height: 50px;
@@ -353,7 +362,8 @@ footer{
     background-color: #F2F2F2;
     display: flex;
     align-items: flex-start;
-    margin: 0 auto;
+    margin-top: auto;
+    
 }
 footer div{
     width: 33%;
