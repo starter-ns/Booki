@@ -39,6 +39,7 @@ section.popular {
     justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
+    height: 100%;
 }
 
 #activities-in-marseille .card {
