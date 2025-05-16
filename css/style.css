@@ -171,9 +171,7 @@ header{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
 }
 .activity-cards h3{
-    padding: 20px 19px;
-    margin: 0;
-    height: 59px;
+    margin-left: 15PX;
 }
 #activities-in-marseille img{
     border-radius: 20px 20px 0 0 ;
@@ -255,7 +253,7 @@ color: #0065FC;
 .search-box{
     border:none;
     width: 195px;
-    height: 49px;
+    height: 47px;
     outline: 0;
 
 
@@ -375,6 +373,7 @@ footer ul{
 footer li{
     list-style: none;
     padding: 5px 0;
+    width: fit-content;
     
 }
 footer a{
