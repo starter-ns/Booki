@@ -9,21 +9,25 @@
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid, .fa-regular {
+.fa-solid,
+.fa-regular {
     color: var(--main-color);
 }
-html{
+
+html {
     height: 100%;
 }
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0;
     min-height: 100%;
+
 }
 
-header{
+header {
     margin: 76px 0 25px 0;
 }
 
@@ -80,34 +84,40 @@ header{
 #accommodation {
     width: 65%;
 }
-.accommodation-title{
+
+.accommodation-title {
     margin: 0px;
     font-size: 22px;
 
 }
-.accommodation-cards img{
+
+.accommodation-cards img {
     width: 100%;
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.accommodation-cards .card{
+
+.accommodation-cards .card {
     background-color: white;
     border-radius: 20px;
     padding-bottom: 15px;
     height: 207.25px;
 
 }
-.accommodation-cards .card .card-title{
+
+.accommodation-cards .card .card-title {
     margin: 0;
     gap: 8px;
 }
-.accommodation-cards{
+
+.accommodation-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
     margin-top: 33px;
 }
+
 /****** Popular ***********/
 .popular {
     width: 32%;
@@ -152,38 +162,45 @@ header{
 .popular-cards .card-rating {
     margin-bottom: 5px;
 }
+
 /****** activities ***********/
-#activities-in-marseille{
+#activities-in-marseille {
     padding: 30px;
     gap: 30px;
 }
-.activity-cards{
+
+.activity-cards {
     display: flex;
     justify-content: space-between;
     gap: 30px;
     height: 650px;
-    
+
 }
-#activities-in-marseille .card{
+
+#activities-in-marseille .card {
     padding: 0;
     width: 25%;
     height: 100%;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;  
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.activity-cards h3{
+
+.activity-cards h3 {
     margin-left: 15PX;
 }
-#activities-in-marseille img{
-    border-radius: 20px 20px 0 0 ;
+
+#activities-in-marseille img {
+    border-radius: 20px 20px 0 0;
     width: 100%;
     background-size: cover;
     height: 90%;
 }
+
 /****** Navbar ***********/
-.logo{
+.logo {
     padding: 10px 0 10px 50px;
     cursor: pointer;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -200,65 +217,71 @@ nav {
 }
 
 
-.nav_links a{
+.nav_links a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    position:relative;
+    position: relative;
 }
-.nav_links li{
+
+.nav_links li {
     display: inline-block;
     padding: 0px 20px;
 }
-.nav_links{
+
+.nav_links {
     display: flex;
     justify-content: space-between;
 }
-.nav_links a::after{
-content: '';
-height: 2px;
-width: 100%;
-background: #0065FC;
-position:absolute;
-left:0;
-bottom:43px;
-opacity: 0;
-transition: all 0.2s;
-pointer-events: none;
-z-index: 1;
+
+.nav_links a::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #0065FC;
+    position: absolute;
+    left: 0;
+    bottom: 43px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+    z-index: 1;
 
 }
+
 .nav_links a:hover::after,
-.nav_links a:focus::after
-{
-opacity: 1; 
-color: #0065FC;
+.nav_links a:focus::after {
+    opacity: 1;
+    color: #0065FC;
 }
+
 .nav_links a:hover,
-.nav_links a:focus
-{
+.nav_links a:focus {
     opacity: 1;
     color: #0065FC;
     transition: all 0.2s;
 }
+
 /****** search-bar ***********/
-.search{
+.search {
     margin: 30px 0px;
     width: 338px;
     height: 49px;
     display: flex;
     border: 1px solid #f2f2f2;
     border-radius: 17px;
-    
+
 }
-.search-box{
-    border:none;
+
+.search-box {
+    border: none;
     width: 195px;
     height: 47px;
     outline: 0;
 
 
 }
-.location-box{
+
+.location-box {
     width: 50px;
     height: 49px;
     background-color: #F2F2F2;
@@ -266,14 +289,15 @@ color: #0065FC;
     border-bottom-left-radius: 15px;
 }
 
-.fa-location-dot{
+.fa-location-dot {
     font-size: 18px;
     position: relative;
     top: 15px;
     left: 18px;
     color: black;
 }
-.search-btn{
+
+.search-btn {
     color: white;
     font-weight: 700;
     line-height: 100%;
@@ -283,7 +307,7 @@ color: #0065FC;
     width: 93px;
     height: 49px;
     border: 1px solid #0065FC;
-background-color: #0065FC;
+    background-color: #0065FC;
 }
 
 /****** filters ***********/
@@ -292,91 +316,101 @@ background-color: #0065FC;
     align-items: center;
     gap: 20px;
 }
+
 .filters {
-        list-style-type: none;
-        display: flex;
-        height: 50px;
-        padding-left: 0px;
-}
-.filters i {
-    margin-right: 10px;
-    
+    list-style-type: none;
+    display: flex;
+    height: 50px;
+    padding-left: 0px;
 }
 
-.filters li{
+.filters i {
+    margin-right: 10px;
+
+}
+
+.filters li {
     margin: 0 15px 0 0;
     font-size: 17px;
     font-weight: 700;
     justify-content: space-between;
     display: flex;
     align-items: center;
-   
-    
+
+
 }
 
-.filters a{
+.filters a {
     cursor: pointer;
     border: 2px solid #D9D9D9;
-    padding: 4px 19px ;
+    padding: 4px 19px;
     border-radius: 25px;
     display: flex;
     height: 38px;
     align-items: center;
-     color: inherit;
-  text-decoration: none;
-  
+    color: inherit;
+    text-decoration: none;
+
 }
+
 .filters a:hover,
-.filters a:focus{
+.filters a:focus {
     opacity: 1;
     background-color: #DEEBFF;
     transition: all 0.2s;
 }
-.info{
+
+.info {
     font-size: 16px;
     font-weight: 400;
     padding-left: 10px;
 }
-.fa-info{
+
+.fa-info {
     width: 24px;
     height: 24px;
-border: 1px solid #F2F2F2;
-border-radius: 100%;
-display: flex;
-  align-items: center;
-  justify-content: center;
+    border: 1px solid #F2F2F2;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-.info-sec{
+
+.info-sec {
     display: flex;
     align-items: center;
 }
 
 
 /****** footer ***********/
-footer{
+footer {
     width: 100%;
     height: 163px;
     background-color: #F2F2F2;
     display: flex;
     align-items: flex-start;
     margin-top: auto;
-    
+
 }
-footer div{
+
+footer div {
     width: 33%;
     padding-left: 25px;
 }
-footer ul{
+
+footer ul {
     padding: 0px;
 }
-footer li{
+
+footer li {
     list-style: none;
     padding: 5px 0;
     width: fit-content;
-    
+
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: black;
 }
