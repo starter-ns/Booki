@@ -58,9 +58,10 @@ header{
     margin: 135px 0 0 0;
 }
 nav {
-    display: grid;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column; 
     width: 100%;
     padding: 0;
     list-style-type: none;
@@ -76,8 +77,9 @@ nav {
 
 .nav_links{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0;
+    width: 100%;
 }
 .nav_links a::after{
 top: 33px;
