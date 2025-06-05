@@ -83,6 +83,13 @@ header {
 
 
 /****** Accommodation ***********/
+.card-link {
+  display: block;            
+  text-decoration: none;     
+  color: inherit;            
+}
+
+
 #accommodation {
     width: 65%;
 }
@@ -104,7 +111,6 @@ header {
     background-color: white;
     border-radius: 20px;
     padding-bottom: 15px;
-    height: 207.25px;
 
 }
 
@@ -193,8 +199,8 @@ header {
 #activities-in-marseille img {
     border-radius: 20px 20px 0 0;
     width: 100%;
-    background-size: cover;
-    height: 90%;
+    object-fit: cover;
+    height: 570px;
 }
 
 /****** Navbar ***********/

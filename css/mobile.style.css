@@ -140,9 +140,6 @@
         flex-direction: column;
     }
 
-}
-
-@media screen and (max-width: 1024px) {
     .filters-sec {
         display: grid;
         gap: 0;
