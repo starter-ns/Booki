@@ -1,4 +1,13 @@
 /* tablet */
-@media (max-width: 1024px){
-    
+@media (max-width: 1023px) {
+    .activity-cards .card img {
+        aspect-ratio: 4/3;
+        min-height: 220px;
+    }
+}
+@media (max-width: 1023px) {
+    .activity-cards .card img {
+        aspect-ratio: 4/3;
+        min-height: 220px;
+    }
 }
