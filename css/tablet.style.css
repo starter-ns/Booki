@@ -18,7 +18,19 @@
         margin-top: 30px;
     }
     .popular-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .popular-cards .card{
+                width: 30%;
+
         
+    }
+    .filters-sec {
+        display: grid;
+        gap: 0;
     }
 
 
