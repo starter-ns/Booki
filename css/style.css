@@ -174,33 +174,41 @@ header {
 /****** activities ***********/
 #activities-in-marseille {
     padding: 30px;
-    gap: 30px;
 }
 
 .activity-cards {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
-    height: 650px;
-
+    align-items: stretch;
 }
 
-#activities-in-marseille .card {
+.activity-cards .card {
+    background-color: white;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
     padding: 0;
-    width: 25%;
-    height: 100%;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.activity-cards h3 {
-    margin-left: 15PX;
-}
-
-#activities-in-marseille img {
-    border-radius: 20px 20px 0 0;
+.activity-cards .card img {
     width: 100%;
+    aspect-ratio: 3/4;
+    min-height: 300px;
     object-fit: cover;
-    height: 570px;
+}
+
+.activity-cards .card h3 {
+    margin: 0;
+    padding: 12px;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: auto;
 }
 
 /****** Navbar ***********/
