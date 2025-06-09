@@ -84,9 +84,9 @@ header {
 
 /****** Accommodation ***********/
 .card-link {
-  display: block;            
-  text-decoration: none;     
-  color: inherit;            
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -171,7 +171,7 @@ header {
     margin-bottom: 5px;
 }
 
-.show-more{
+.show-more {
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
@@ -320,10 +320,12 @@ nav {
 }
 
 .search-btn i {
-  display: none;
+    display: none;
 }
+
 .search-btn span {
-  display: inline; /* ensure the label shows */
+    display: inline;
+    /* ensure the label shows */
 }
 
 .search-btn {
@@ -443,4 +445,3 @@ footer a {
     text-decoration: none;
     color: black;
 }
-
