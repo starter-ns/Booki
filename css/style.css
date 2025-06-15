@@ -14,6 +14,7 @@
     color: var(--main-color);
 }
 
+
 html {
     height: 100%;
 }
@@ -399,16 +400,19 @@ nav {
     font-size: 16px;
     font-weight: 400;
     padding-left: 10px;
+    flex: 1;
 }
 
 .fa-info {
     width: 24px;
     height: 24px;
+    min-width: 24px;
     border: 1px solid #F2F2F2;
     border-radius: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-shrink: 0;
 
 }
 
@@ -448,4 +452,9 @@ footer li {
 footer a {
     text-decoration: none;
     color: black;
+    white-space: nowrap;
+}
+footer h2 {
+    font-size: 18px;
+    white-space: nowrap;
 }
